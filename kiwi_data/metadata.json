@@ -1,0 +1,259 @@
+{
+  "analysis": {
+    "software": "kiwi_analyse.py",
+    "version": "advanced-1.0",
+    "fft_size": 4096,
+    "fft_overlap": 0.75,
+    "fft_step": 1024
+  },
+  "file": {
+    "filename": "20261005T103456Z_7100000_iq.wav",
+    "path": "/Users/emmanuelaprofir/Documents/GitHub/wavelens/kiwiclient/20261005T103456Z_7100000_iq.wav",
+    "size_bytes": 1462206,
+    "sha256": "17b7910a0a393352b9f33f0d94ba171382af56271ef52eae44cf1446638612f6"
+  },
+  "wav": {
+    "channels": 2,
+    "sample_rate": 11999,
+    "sample_width_bytes": 2,
+    "frames": 512,
+    "compression": "NONE",
+    "compression_name": "not compressed"
+  },
+  "capture": {
+    "source": "KiwiSDR",
+    "mode": "IQ",
+    "center_frequency_hz": 7100000,
+    "center_frequency_mhz": 7.1,
+    "sample_rate_hz": 11998.902096718342,
+    "samples": 359936,
+    "duration_seconds": 29.99741118801538,
+    "iq_dtype": "complex64"
+  },
+  "timestamps": {
+    "count": 359936,
+    "dtype": "float64",
+    "first": 571138.146536854,
+    "last": 571168.143864701,
+    "statistics": {
+      "delta_mean": 8.33409583593066e-05,
+      "delta_median": 8.334091398864985e-05,
+      "delta_min": 8.334091398864985e-05,
+      "delta_max": 8.336501196026802e-05,
+      "delta_std": 1.0039335132799173e-09,
+      "negative_deltas": 0,
+      "zero_deltas": 0,
+      "large_gaps": 0
+    }
+  },
+  "iq_statistics": {
+    "i_mean": 0.00011571705545065925,
+    "q_mean": 0.00013001510524190962,
+    "i_rms": 0.05901239439845085,
+    "q_rms": 0.05891180783510208,
+    "amplitude_mean": 0.07244564592838287,
+    "amplitude_rms": 0.08338503539562225,
+    "amplitude_min": 7.629510946571827e-05,
+    "amplitude_max": 0.22917219996452332,
+    "power_mean": 0.006953063886612654,
+    "crest_factor": 2.748361349105835,
+    "crest_factor_db": 8.781476974487305,
+    "dc_amplitude": 0.00017405276594217867,
+    "dc_relative_db": -75.1863784790039
+  },
+  "amplitude_distribution": {
+    "p01": 0.00654736440628767,
+    "p05": 0.015197385102510452,
+    "p25": 0.03942800313234329,
+    "p50": 0.06685927510261536,
+    "p75": 0.10036847740411758,
+    "p95": 0.14837072789669037,
+    "p99": 0.17751829326152802
+  },
+  "phase_analysis": {
+    "mean_hz": 2450.1107280813662,
+    "std_hz": 3319.145920469331,
+    "median_hz": 3849.2079823051195,
+    "p05_hz": -5251.632596013187,
+    "p95_hz": 5572.95940577633
+  },
+  "rf_analysis": {
+    "peak_offset_hz": 4953.360777324816,
+    "peak_frequency_hz": 7104953.360777325,
+    "peak_power_db": 53.60492517755067,
+    "noise_floor_db": 22.04073424899349,
+    "estimated_snr_db": 31.564190928557178,
+    "peaks": [
+      {
+        "rank": 1,
+        "offset_hz": 4953.360777324816,
+        "frequency_hz": 7104953.360777325,
+        "power_db": 53.60492517755067
+      },
+      {
+        "rank": 2,
+        "offset_hz": 4799.6141766233995,
+        "frequency_hz": 7104799.6141766235,
+        "power_db": 52.869327095829576
+      },
+      {
+        "rank": 3,
+        "offset_hz": 4907.390143680572,
+        "frequency_hz": 7104907.39014368,
+        "power_db": 52.69222226684278
+      },
+      {
+        "rank": 4,
+        "offset_hz": 4823.14954091117,
+        "frequency_hz": 7104823.149540911,
+        "power_db": 49.96628453733618
+      },
+      {
+        "rank": 5,
+        "offset_hz": 4768.911527177172,
+        "frequency_hz": 7104768.911527177,
+        "power_db": 49.53557771784489
+      },
+      {
+        "rank": 6,
+        "offset_hz": 4453.050937054465,
+        "frequency_hz": 7104453.050937055,
+        "power_db": 49.52070998231348
+      },
+      {
+        "rank": 7,
+        "offset_hz": 4481.820086318412,
+        "frequency_hz": 7104481.820086318,
+        "power_db": 48.29317314996774
+      },
+      {
+        "rank": 8,
+        "offset_hz": 4876.020770033557,
+        "frequency_hz": 7104876.020770034,
+        "power_db": 48.20606195050736
+      },
+      {
+        "rank": 9,
+        "offset_hz": 4930.492137237832,
+        "frequency_hz": 7104930.492137237,
+        "power_db": 48.20254933790247
+      },
+      {
+        "rank": 10,
+        "offset_hz": 4340.607900591786,
+        "frequency_hz": 7104340.607900592,
+        "power_db": 47.45307542467781
+      },
+      {
+        "rank": 11,
+        "offset_hz": 4428.882184775947,
+        "frequency_hz": 7104428.882184776,
+        "power_db": 46.501346823639
+      },
+      {
+        "rank": 12,
+        "offset_hz": 4741.009119374247,
+        "frequency_hz": 7104741.009119375,
+        "power_db": 46.36703782630438
+      },
+      {
+        "rank": 13,
+        "offset_hz": 4584.8289753399595,
+        "frequency_hz": 7104584.82897534,
+        "power_db": 46.36422231406613
+      },
+      {
+        "rank": 14,
+        "offset_hz": 4701.705727737871,
+        "frequency_hz": 7104701.705727738,
+        "power_db": 46.30200058520628
+      },
+      {
+        "rank": 15,
+        "offset_hz": 4672.63655258357,
+        "frequency_hz": 7104672.636552583,
+        "power_db": 46.24641282015854
+      },
+      {
+        "rank": 16,
+        "offset_hz": 4533.15784977899,
+        "frequency_hz": 7104533.157849779,
+        "power_db": 46.04729382632002
+      },
+      {
+        "rank": 17,
+        "offset_hz": 4620.298702821813,
+        "frequency_hz": 7104620.298702822,
+        "power_db": 45.997684272856915
+      },
+      {
+        "rank": 18,
+        "offset_hz": 4562.927085344116,
+        "frequency_hz": 7104562.927085344,
+        "power_db": 45.531843468615065
+      },
+      {
+        "rank": 19,
+        "offset_hz": 4640.967153046201,
+        "frequency_hz": 7104640.967153046,
+        "power_db": 45.43454044633944
+      },
+      {
+        "rank": 20,
+        "offset_hz": 4844.75140501666,
+        "frequency_hz": 7104844.7514050165,
+        "power_db": 44.809694484430565
+      }
+    ],
+    "bandwidths": {
+      "3_db": {
+        "low_offset_hz": 4793.513650186202,
+        "high_offset_hz": 4956.894415588986,
+        "low_frequency_hz": 7104793.513650186,
+        "high_frequency_hz": 7104956.894415589,
+        "bandwidth_hz": 163.38076540278416
+      },
+      "6_db": {
+        "low_offset_hz": 4453.050937054465,
+        "high_offset_hz": 4957.361122529536,
+        "low_frequency_hz": 7104453.050937055,
+        "high_frequency_hz": 7104957.36112253,
+        "bandwidth_hz": 504.3101854750712
+      },
+      "10_db": {
+        "low_offset_hz": 507.27710816857166,
+        "high_offset_hz": 4961.361467734257,
+        "low_frequency_hz": 7100507.277108168,
+        "high_frequency_hz": 7104961.361467734,
+        "bandwidth_hz": 4454.084359565685
+      },
+      "20_db": {
+        "low_offset_hz": -1923.2659657993956,
+        "high_offset_hz": 4982.096590378724,
+        "low_frequency_hz": 7098076.7340342,
+        "high_frequency_hz": 7104982.096590378,
+        "bandwidth_hz": 6905.362556178119
+      }
+    }
+  },
+  "temporal_analysis": {
+    "blocks": 348,
+    "peak_frequency_mean_hz": 7094120.79467292,
+    "peak_frequency_std_hz": 11.70272811666208,
+    "peak_frequency_min_hz": 7094030.184842366,
+    "peak_frequency_max_hz": 7094125.559739288,
+    "peak_power_mean_db": 33.341527503119295,
+    "peak_power_std_db": 6.453622951705866,
+    "peak_power_min_db": 12.467924987773253,
+    "peak_power_max_db": 48.60764988784191,
+    "snr_mean_db": 32.24506058325836,
+    "snr_std_db": 7.545550699118398
+  },
+  "outputs": {
+    "spectrum": "kiwi_analysis/spectrum.png",
+    "spectrogram": "kiwi_analysis/spectrogram.png",
+    "iq": "kiwi_analysis/iq.npy",
+    "blocks_csv": "kiwi_analysis/blocks.csv",
+    "metadata": "kiwi_analysis/metadata.json"
+  }
+}
