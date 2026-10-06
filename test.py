@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import find_peaks
+### premiers tests sur une simulation de fréquences radio
 
 #parametres
 
