@@ -39,3 +39,5 @@ Explication par étapes :
 12. Génération du spectre et du spectrogramme
 
 13. Sauvegarde des données IQ et des résultats d'analyse.
+
+NB: Dans un .wav de 30secondes, il y a environ 360 000 échantillons avec I et Q.
