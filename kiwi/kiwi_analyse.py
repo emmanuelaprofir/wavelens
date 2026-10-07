@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from kiwi.wavreader import read_kiwi_iq_wav
 
-FILENAME = "20261005T103456Z_7100000_iq.wav" #   remplacer par ton wav"
+FILENAME = "iq.wav" #   remplacer par ton wav"
 CENTER_FREQUENCY_HZ = 7_100_000 #   remplacer par la fréquence centrale souhaitée
 OUTPUT_DIR = "kiwi_analysis" #   le directory dans lequel les fichiers produits seront stockés
 os.makedirs(OUTPUT_DIR, exist_ok=True)

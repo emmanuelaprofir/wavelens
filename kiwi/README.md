@@ -10,7 +10,17 @@ J'ai choisi un WebSDR (Software-Defined Radio receiver connected to the internet
 Il faut veiller à ce que le SDR ne requiert pas d'authentification avec un mot de passe, et qu'il reste une place.
 
 Il faut cloner le repository kiwiclient et déplacer kiwi_analyse.py dedans. 
-Ensuite exécuter dans kiwiclient -> "python3 kiwi_analyse.py"
+Exécuter dans kiwiclient :
+
+    python3 kiwirecorder.py -s sdr.ironstonerange.com -p 8073 -f 10000 -m iq -w --tlimit 30 --fn iq
+
+Le fichier wav créé s'appelle iq.wav et est appelé dans kiwi_analyse.
+
+Exécuter :
+
+    python3 kiwi_analyse.py
+
+Les fichiers générés sont stockés dans kiwiclient/kiwi_analysis.
 
 Explication par étapes :
 
