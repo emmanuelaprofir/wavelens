@@ -6,12 +6,6 @@
     "fft_overlap": 0.75,
     "fft_step": 1024
   },
-  "file": {
-    "filename": "20261005T103456Z_7100000_iq.wav",
-    "path": "/Users/emmanuelaprofir/Documents/GitHub/wavelens/kiwiclient/20261005T103456Z_7100000_iq.wav",
-    "size_bytes": 1462206,
-    "sha256": "17b7910a0a393352b9f33f0d94ba171382af56271ef52eae44cf1446638612f6"
-  },
   "wav": {
     "channels": 2,
     "sample_rate": 11999,
